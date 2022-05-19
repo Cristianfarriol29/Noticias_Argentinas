@@ -1,0 +1,54 @@
+.headerImage {
+    background-image: url("https://cdn.pixabay.com/photo/2014/10/30/00/15/buenos-aires-508790_960_720.jpg");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    height: 100vh;
+    width: 100%;
+    margin: 0 auto;
+ padding: 5rem;
+}
+
+
+
+
+
+.headerText {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.subtitle h3 {
+color: white;
+margin: 0;
+padding: 0;
+font-weight: 700;
+line-height: 1.8rem;
+font-size: 2rem;
+}
+
+.title h1 {
+    color: #FFEB3B ;
+    font-family: 'Libre Baskerville';
+    font-size: 6rem;
+    margin-top: 10px;
+}
+
+@media (max-width: 768px){
+    .title h1 {
+        font-size: 4rem;
+    }
+}
+
+.description {
+    max-width: 350px;
+    font-weight: 400;
+    font-family: "Roboto", 'Courier New', Courier, monospace;
+    font-size: 2rem;
+    color: white;
+}
+
+
